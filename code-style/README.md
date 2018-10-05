@@ -110,9 +110,9 @@ printf("0000000001111111111222222222233333333334444444444"
        "55555555556666666666777777777788888888889999999999");
 
 // 错误
-string func(string arg1, string arg2, string arg3, string arg4, string arg5, string arg6, string arg7, string arg8);
+string Func(string arg1, string arg2, string arg3, string arg4, string arg5, string arg6, string arg7, string arg8);
 // 正确
-string func(string arg1, string arg2, string arg3, string arg4,
+string Func(string arg1, string arg2, string arg3, string arg4,
             string arg5, string arg6, string arg7, string arg8);
 ```
 
@@ -146,10 +146,10 @@ cout << "Hello World!" << endl;
 
 ```C++
 // 正确
-void func();
+void Func();
 // 正确
 void
-func();
+Func();
 ```
 
 ## 大括号的使用
@@ -213,12 +213,12 @@ if (i == j) {
 ```C++
 // 正确
 while (true) {
-    coding();
+    Coding();
 }
 // 正确
 while (true)
 {
-    coding();
+    Coding();
 }
 
 // 正确
