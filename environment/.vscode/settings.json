@@ -1,0 +1,4 @@
+{
+    "code-runner.runInTerminal": true,
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4 }"
+}
