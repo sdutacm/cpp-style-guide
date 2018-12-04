@@ -48,7 +48,7 @@
             "request": "launch",
             "targetArchitecture": "x86",
             "program": "${file}.exe",
-            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe", // 将 C:\\MinGW\\bin 修改为你的 MinGW 的路径
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -58,6 +58,8 @@
     ]
 }
 ```
+
+注意将 `miDebuggerPath` 中的 `C:\\MinGW\\bin` 修改为你的 MinGW 的路径。
 
 **tasks.json**
 
